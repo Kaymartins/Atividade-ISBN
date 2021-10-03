@@ -24,5 +24,31 @@ O seu trabalho é desenvolver um programa que implementa a função isbn dv. Est
 deve receber um literal com os nove primeiros dígitos de um número de ISBN e retornar o dígito
 verificador.
 
+## Entrada
+
+Seu programa deve ler os primeiros nove dígitos de vários ISBN´s. Cada ISBN é composto
+por uma única linha, que contém a sequência de dígitos a ser testada. O final é o ISBN
+000000000.
+
+## Saída
+
+Para cada ISBN lido, seu programa deve escrever, na saída, o ISBN com o dígito verificador
+calculado.
+
+Exemplo: 
+
+Entrada<br>
+089237010<br>
+083063637<br>
+000000000<br>
+
+Saída<br>
+089237010-6<br>
+083063637-4<br>
+
+## Nota
+
+A nota atríbuida a essa atividade foi 7,5.
+
 
 
